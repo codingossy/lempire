@@ -17,11 +17,11 @@ const Navbar = () => {
   return (
     <nav className='py-5 px-4 flex justify-between items-center h-24 w-full mx-auto'>
        
-       <img src={logo} alt="" className='w-32'/>
+       <img src={logo} alt="" className='w-32' data-aos='fade-right' data-aos-delay="200"/>
 
         <ul className='flex uppercase cursor-pointer transition-all font-semibold text-1xl text-white'>
        
-        <div onClick={handleNav} className='block z-20000  text-white'>
+        <div onClick={handleNav} className='block z-20000  text-white' data-aos='fade-left' data-aos-delay="200">
            {nav ? <AiOutlineClose size={30} /> :  <AiOutlineMenu size={30} /> }
           
            
@@ -41,7 +41,7 @@ const Navbar = () => {
             <li className='p-6 hover:text-red-500'>job</li>
             <li className='p-6 hover:text-red-500'>blog</li>
 
-            <button className='bg-gray-700 p-3 rounded-lg text-center sm:w-full md:w-[50%] capitalize hover:bg-black hover:text-white text-sm sm:mt-56 bottom-0  md:mt-20'>join lempire </button>
+            <button className='bg-gray-700 p-3 rounded-lg text-center sm:w-full md:w-[50%] capitalize hover:bg-black hover:text-white text-sm sm:mt-56 bottom-0  md:mt-20' >join lempire </button>
           
             </ul>
 

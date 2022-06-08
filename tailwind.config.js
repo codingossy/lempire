@@ -41,6 +41,8 @@ variants: {
         'school2':'url("./Components/images/a5.jpg")',
         'school3':'url("./Components/images/a4.jpg")',
         'school4':'url("./Components/images/a6.jpg")',      
+        'star':'url("./pics/bgimg.jpeg")',      
+        'team':'url("./pics/team.jpg")',      
         'image2': 'url("./images/t7.jpg")'
       },
      
